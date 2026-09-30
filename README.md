@@ -100,3 +100,9 @@ Python (pandas, matplotlib, SciPy), Jupyter. Version initiale réalisée dans un
 Projet réalisé en équipe au bootcamp IA de DesCodeuses par **Soumeya Benhaddouche**, Amelee, Elisabeth et Maria.
 
 J'ai coordonné le projet et réalisé la majeure partie du travail, puis j'ai repris et corrigé seule l'analyse de données après le bootcamp.
+
+## Contact
+
+Je suis en reconversion vers l'analyse de données et je recherche une alternance en data analyse (bootcamp Ironhack, à partir de novembre 2026).
+
+[Mon profil LinkedIn](https://www.linkedin.com/in/soumeya-benhaddouche-b20141431)
