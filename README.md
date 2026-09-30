@@ -103,6 +103,6 @@ J'ai coordonné le projet et réalisé la majeure partie du travail, puis j'ai r
 
 ## Contact
 
-Je suis en reconversion vers l'analyse de données et je recherche une alternance en data analyse (bootcamp Ironhack, à partir de novembre 2026).
+Je suis en reconversion vers l'analyse de données et je recherche une alternance en data analyse (bootcamp Ironhack, à partir d'octobre 2026).
 
 [Mon profil LinkedIn](https://www.linkedin.com/in/soumeya-benhaddouche-b20141431)
