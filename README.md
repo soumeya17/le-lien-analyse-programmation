@@ -43,6 +43,20 @@ La première version, faite dans un tableur en fin de bootcamp, est conservée d
 | Concert de 400 places inclus sans vérification | Valeur atypique repérée, signalée et exclue des moyennes |
 | Billets vendus comparés entre salles de tailles différentes | Taux de remplissage (billets / jauge) |
 
+## Ma méthode : l'analyse de données avec l'IA
+
+J'ai utilisé des assistants IA tout au long de ce projet, comme un outil de travail au même titre que Python ou le tableur. L'IA accélère l'écriture du code ; les questions, les vérifications et les décisions restent les miennes. Voici les étapes que j'ai suivies, celles qu'un data analyst doit tenir quand il travaille avec l'IA :
+
+1. **Poser la question métier.** Avant toute ligne de code : qu'est-ce qui remplit la salle, qu'est-ce qui couvre les coûts ? Une question précise donne une réponse utile, à l'IA comme à un collègue.
+2. **Décrire les données à l'IA.** Colonnes, unités, ce que représente une ligne. C'est ce contexte qui évite les analyses à côté du sujet.
+3. **Faire générer le code et les calculs.** Chargement du fichier, contrôles, taux de remplissage, marges, corrélations et graphiques ont été produits avec l'aide de l'IA, à partir de demandes formulées étape par étape.
+4. **Relire et vérifier chaque résultat.** C'est l'étape la plus importante. Les chiffres clés ont été recalculés par un second moyen, la recette a été comparée à billets x prix sur toutes les lignes, et chaque graphique a été confronté aux tableaux. C'est ainsi que le concert de 400 places a été repéré et que les erreurs de la version bootcamp ont été corrigées (voir le tableau ci-dessus).
+5. **Questionner les conclusions.** Une corrélation n'est pas une cause : les autres explications possibles (notoriété des artistes, saison unique) ont été recherchées et notées dans la partie « Limites ».
+6. **Automatiser ce qui se répète.** Le notebook refait toute l'analyse d'un seul clic : si une nouvelle saison arrive, les chiffres et les graphiques se mettent à jour sans travail manuel.
+7. **Documenter et transmettre.** Ce README, les définitions des colonnes et la recommandation finale sont écrits pour être compris par l'équipe de l'association, pas seulement par des profils techniques.
+
+Ce que j'en retiens : l'IA fait gagner beaucoup de temps, mais elle ne remplace ni la connaissance du métier ni la rigueur de vérification. C'est cette combinaison que je veux apporter en entreprise.
+
 ## Contrôle qualité des données
 
 Le fichier a été vérifié avant analyse : aucune valeur manquante, jour de la semaine cohérent avec la date, recette égale à billets x prix sur toutes les lignes, aucune vente au-dessus de la jauge.
@@ -93,7 +107,7 @@ jupyter notebook notebooks/analyse_programmation.ipynb
 
 ## Outils
 
-Python (pandas, matplotlib, SciPy), Jupyter. Version initiale réalisée dans un tableur (tableaux croisés dynamiques).
+Python (pandas, matplotlib, SciPy), Jupyter, assistants IA pour la génération de code, la relecture et la documentation. Version initiale réalisée dans un tableur (tableaux croisés dynamiques).
 
 ## Équipe
 
@@ -103,6 +117,6 @@ J'ai coordonné le projet et réalisé la majeure partie du travail, puis j'ai r
 
 ## Contact
 
-Je suis en reconversion vers l'analyse de données et je recherche une alternance en data analyse (bootcamp Ironhack, à partir d'octobre 2026).
+Je suis en reconversion vers l'analyse de données et je recherche une alternance en data analyse (bootcamp Ironhack Data Analyse avec IA, à partir de novembre 2026). Plus de détails sur ma démarche sur [mon profil GitHub](https://github.com/soumeya17).
 
 [Mon profil LinkedIn](https://www.linkedin.com/in/soumeya-benhaddouche-b20141431)
